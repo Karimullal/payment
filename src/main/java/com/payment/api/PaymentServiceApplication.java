@@ -19,5 +19,11 @@ public class PaymentServiceApplication {
 	public String payment() {
 		return "payment sent...";
 	}
+	
+	
+	@GetMapping("/")
+	public String payment() {
+		return "Hello world..";
+	}
 
 }
