@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-@RequestMapping("/payment")
 public class PaymentServiceApplication {
 
 	public static void main(String[] args) {
