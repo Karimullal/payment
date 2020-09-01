@@ -13,7 +13,7 @@ public class PaymentServiceApplication {
 		SpringApplication.run(PaymentServiceApplication.class, args);
 	}	
 	
-	@GetMapping
+	@GetMapping(value="/pay")
 	public String payment() {
 		return "Hello world..";
 	}
